@@ -6,3 +6,5 @@ sleep 30
 lxc exec armand -- apt update -y
 lxc exec armand -- apt upgrade -y
 lxc exec armand -- apt install mc -y
+lxc exec armand -- apt install nmap -y
+lxc exec armand -- apt install traceroute -y
